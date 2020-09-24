@@ -3,7 +3,7 @@
 require_once('./utils.php');
 
 // ------------------- INPUTS ----------------------
-$arrayInput = ['chaitrr', 'height', 'racket', 'touch', 'tunic'];
+$arrayInput = ['chair', 'height', 'racket', 'touch', 'tunic'];
 // ------------------- END INPUTS ------------------
 
 $arrayInput = array_filter($arrayInput, 'is_string');
